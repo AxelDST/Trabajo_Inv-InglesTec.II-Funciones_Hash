@@ -1,0 +1,46 @@
+{
+  "users_total": 8,
+  "dictionary_size": 50,
+  "scenario_simple": {
+    "cracked": 6,
+    "not_cracked": 2,
+    "hash_calculations": 50,
+    "time_s": 0.000148,
+    "cracked_users": {
+      "alice": "123456",
+      "bob": "password",
+      "carlos": "qwerty",
+      "diana": "letmein",
+      "franco": "admin",
+      "hugo": "iloveyou"
+    },
+    "not_cracked_users": [
+      "elena",
+      "gabriela"
+    ]
+  },
+  "scenario_salted": {
+    "cracked": 6,
+    "not_cracked": 2,
+    "hash_calculations": 141,
+    "time_s": 0.000382,
+    "cracked_users": {
+      "alice": "123456",
+      "bob": "password",
+      "carlos": "qwerty",
+      "diana": "letmein",
+      "franco": "admin",
+      "hugo": "iloveyou"
+    },
+    "not_cracked_users": [
+      "elena",
+      "gabriela"
+    ]
+  },
+  "cost_comparison": {
+    "sha256_time_per_hash_s": 1.31e-06,
+    "pbkdf2_time_per_hash_s": 0.052245,
+    "slowdown_factor": 39983.0,
+    "pbkdf2_iterations": 100000
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "data_size_mb": 10,
+  "data_size_bytes": 10485760,
+  "repetitions": 50,
+  "results": [
+    {
+      "algorithm": "MD5",
+      "output_bits": 128,
+      "hex_chars": 32,
+      "median_time_s": 0.017395,
+      "mean_time_s": 0.017422,
+      "stdev_time_s": 0.000437,
+      "speed_mb_s": 574.88,
+      "repetitions": 50,
+      "data_size_mb": 10
+    },
+    {
+      "algorithm": "SHA1",
+      "output_bits": 160,
+      "hex_chars": 40,
+      "median_time_s": 0.006332,
+      "mean_time_s": 0.006435,
+      "stdev_time_s": 0.000471,
+      "speed_mb_s": 1579.32,
+      "repetitions": 50,
+      "data_size_mb": 10
+    },
+    {
+      "algorithm": "SHA256",
+      "output_bits": 256,
+      "hex_chars": 64,
+      "median_time_s": 0.006189,
+      "mean_time_s": 0.006275,
+      "stdev_time_s": 0.000223,
+      "speed_mb_s": 1615.67,
+      "repetitions": 50,
+      "data_size_mb": 10
+    },
+    {
+      "algorithm": "SHA512",
+      "output_bits": 512,
+      "hex_chars": 128,
+      "median_time_s": 0.014533,
+      "mean_time_s": 0.014369,
+      "stdev_time_s": 0.00085,
+      "speed_mb_s": 688.07,
+      "repetitions": 50,
+      "data_size_mb": 10
+    }
+  ]
+}

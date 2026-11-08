@@ -1,0 +1,31 @@
+{
+  "file": "archivo_prueba_original.txt",
+  "file_size_bytes": 355,
+  "modification": "Byte en posición 10: 20 → 21 (1 bit invertido)",
+  "results": [
+    {
+      "algorithm": "MD5",
+      "hash_original": "b57566c0d7c555ba721c7c6d4838ee5a",
+      "hash_modified": "f694c7aa0a2b3c0df4887c517a893b3a",
+      "match": false
+    },
+    {
+      "algorithm": "SHA1",
+      "hash_original": "9b354d12669bd651856a97fe724dca06066670a2",
+      "hash_modified": "47342697f7ac13447ca34440bba4769660a95c37",
+      "match": false
+    },
+    {
+      "algorithm": "SHA256",
+      "hash_original": "8d55e9e16b89f3b25362e5d0441e65c8996d6a1c7efe60957b8edf4ab379eeee",
+      "hash_modified": "557ca1b338e740d58f1d456e00cb6ce5a1a1d59e558963ee1c64400c5bfd03ad",
+      "match": false
+    },
+    {
+      "algorithm": "SHA512",
+      "hash_original": "2dfddb5aca67838a82aaeebb3f0f34692956a27503b80f61d2cac08b34d3a5c5639ab30eab91a5e3c6b3b3cc18aba524efbc925e4b86b772b4ddda834f635c4b",
+      "hash_modified": "9a01efe9ffe82ae564279ac888337f2531ccca72035e94586c2b10d9e63dcdb89835f5091eaceb9ca04a05605725f1c3fa7324b8d399c0d4f78c6dfc43337f69",
+      "match": false
+    }
+  ]
+}

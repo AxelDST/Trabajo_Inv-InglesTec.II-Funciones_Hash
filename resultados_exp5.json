@@ -1,0 +1,73 @@
+{
+  "birthday_paradox": [
+    {
+      "n_bits": 16,
+      "theoretical_approx": 256,
+      "median_attempts": 298,
+      "mean_attempts": 287.0,
+      "all_attempts": [
+        246,
+        307,
+        146,
+        298,
+        439
+      ],
+      "ratio_to_theoretical": 1.16,
+      "trials": 5
+    },
+    {
+      "n_bits": 20,
+      "theoretical_approx": 1024,
+      "median_attempts": 896,
+      "mean_attempts": 935.0,
+      "all_attempts": [
+        896,
+        989,
+        873,
+        1071,
+        844
+      ],
+      "ratio_to_theoretical": 0.88,
+      "trials": 5
+    },
+    {
+      "n_bits": 24,
+      "theoretical_approx": 4096,
+      "median_attempts": 5166,
+      "mean_attempts": 4932.0,
+      "all_attempts": [
+        5166,
+        1121,
+        4873,
+        7240,
+        6261
+      ],
+      "ratio_to_theoretical": 1.26,
+      "trials": 5
+    },
+    {
+      "n_bits": 32,
+      "theoretical_approx": 65536,
+      "median_attempts": 65188,
+      "mean_attempts": 56739.0,
+      "all_attempts": [
+        16651,
+        65188,
+        26920,
+        101844,
+        73093
+      ],
+      "ratio_to_theoretical": 0.99,
+      "trials": 5
+    }
+  ],
+  "shattered_verification": {
+    "pdf1_sha1": "38762cf7f55934b34d179ae6a4c80cadccbb7f0a",
+    "pdf2_sha1": "38762cf7f55934b34d179ae6a4c80cadccbb7f0a",
+    "sha1_collision": true,
+    "pdf1_sha256": "2bb787a73e37352f92383abe7e2902936d1059ad9f1ba6daaa9c1e58ee6970d0",
+    "pdf2_sha256": "d4488775d29bdef7993367d541064dbdda50d383f89f0aa13a6ff2e0894ba5ff",
+    "sha256_collision": false,
+    "source": "https://shattered.io - Stevens et al. (2017)"
+  }
+}

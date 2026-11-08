@@ -1,0 +1,80 @@
+{
+  "test_1": {
+    "original": "Hola mundo",
+    "modified": "Hola Mundo",
+    "change_description": "Cambio de 'm' minúscula a 'M' mayúscula",
+    "results": [
+      {
+        "algorithm": "MD5",
+        "total_bits": 128,
+        "diff_bits": 66,
+        "percentage": 51.56,
+        "hash_original": "f822102f4515609fc31927a84c6db7f8",
+        "hash_modified": "d501194c987486789bb01b50dc1a0adb"
+      },
+      {
+        "algorithm": "SHA1",
+        "total_bits": 160,
+        "diff_bits": 79,
+        "percentage": 49.38,
+        "hash_original": "c083106c930790151165b95bd11860724e3836cb",
+        "hash_modified": "48124d6dc3b2e693a207667c32ac672414913994"
+      },
+      {
+        "algorithm": "SHA256",
+        "total_bits": 256,
+        "diff_bits": 136,
+        "percentage": 53.12,
+        "hash_original": "ca8f60b2cc7f05837d98b208b57fb6481553fc5f1219d59618fd025002a66f5c",
+        "hash_modified": "c3a4a2e49d91f2177113a9adfcb9ef9af9679dc4557a0a3a4602e1bd39a6f481"
+      },
+      {
+        "algorithm": "SHA512",
+        "total_bits": 512,
+        "diff_bits": 272,
+        "percentage": 53.12,
+        "hash_original": "34ddb0edac59e441459e07cf33bd628f53fbbf752141125f069f32081b169f933666c71b2f1b83031da66bc905a1e72af7c6cfd779fc197513639a098f94c641",
+        "hash_modified": "bb0b2687b9f11a75110cbf78570ea7c8babb10880d533a1ab388113871bd643c47db96e1b19793476b5b3f3000071961aa6d6cab0c1c873c4d7515512c62bbbb"
+      }
+    ]
+  },
+  "test_2": {
+    "original": "Hola mundo",
+    "modified": "Hola mundo.",
+    "change_description": "Se agregó un punto al final",
+    "results": [
+      {
+        "algorithm": "MD5",
+        "total_bits": 128,
+        "diff_bits": 62,
+        "percentage": 48.44,
+        "hash_original": "f822102f4515609fc31927a84c6db7f8",
+        "hash_modified": "9a385be5ce59d3953a3e764cd099cce9"
+      },
+      {
+        "algorithm": "SHA1",
+        "total_bits": 160,
+        "diff_bits": 90,
+        "percentage": 56.25,
+        "hash_original": "c083106c930790151165b95bd11860724e3836cb",
+        "hash_modified": "10f9efad5a7f5b1fc791502fb96257ca0386482f"
+      },
+      {
+        "algorithm": "SHA256",
+        "total_bits": 256,
+        "diff_bits": 133,
+        "percentage": 51.95,
+        "hash_original": "ca8f60b2cc7f05837d98b208b57fb6481553fc5f1219d59618fd025002a66f5c",
+        "hash_modified": "8a3b7da2428acbc74623fb5a7b306a83b62b513371171e78c048fc12fbdb6ddf"
+      },
+      {
+        "algorithm": "SHA512",
+        "total_bits": 512,
+        "diff_bits": 249,
+        "percentage": 48.63,
+        "hash_original": "34ddb0edac59e441459e07cf33bd628f53fbbf752141125f069f32081b169f933666c71b2f1b83031da66bc905a1e72af7c6cfd779fc197513639a098f94c641",
+        "hash_modified": "921643e9a17833fa14292c8f5464bc0c19b3d8f671e8a29b15b2fe4c1677ed6af174689f36bab572456229830ac9ba491b4179107f5e178edd586da238af7841"
+      }
+    ]
+  }
+}
